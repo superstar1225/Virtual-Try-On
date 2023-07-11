@@ -31,7 +31,7 @@ class VITONDataset(data.Dataset):
 
         self.img_names = img_names
         self.c_names = dict()
-        self.c_names['unpaired'] = c_namesc
+        self.c_names['unpaired'] = c_names
 
     def get_parse_agnostic(self, parse, pose_data):
         parse_array = np.array(parse)
