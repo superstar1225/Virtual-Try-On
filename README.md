@@ -52,3 +52,9 @@ The results are saved in the `./results/` directory. You can change the location
 
 All material is made available under [Creative Commons BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). You can **use, redistribute, and adapt** the material for **non-commercial purposes**, as long as you give appropriate credit by **citing our paper** and **indicate any changes** that you've made.
 
+## Clothing Mask
+In a virtual try-on system, a clothing mask is used to accurately represent and overlay virtual garments onto a person's body in real-time or in a rendered image. The clothing mask serves as a silhouette or template that helps the system understand the shape and contours of the person's body, allowing it to accurately place the virtual clothing on the right areas.
+
+The results are saved in the `./datasets/test/clothing-mask/` directory. To make clothing-mask images with different clothing items, edit `./datasets/clothing.txt`. This clothing images are included in the `./datasets/test/cloth/` directory.
+
+Run the work.py file to save the clothing-mask images.
