@@ -58,3 +58,11 @@ In a virtual try-on system, a clothing mask is used to accurately represent and 
 The results are saved in the `./datasets/test/clothing-mask/` directory. To make clothing-mask images with different clothing items, edit `./datasets/clothing.txt`. This clothing images are included in the `./datasets/test/cloth/` directory.
 
 Run the work.py file to save the clothing-mask images.
+
+## Testing clothing-mask
+
+To generate clothing mask images, run:
+
+```
+python work.py
+```
